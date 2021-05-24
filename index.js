@@ -35,6 +35,22 @@ const questions = [
         },
     },
     {
+        type: 'list',
+        message: 'Technologies Used: ',
+        name: 'tech',
+        choices: [
+                { name: '-', value:null},
+                { name: 'Node', value: {"name": "Apache 2.0", "link":'https://choosealicense.com/licenses/apache-2.0/' }},
+                { name: 'CSS', value: {"name": "MIT", "link":'https://spdx.org/licenses/MIT.html'}},
+                { name: 'HTML',value: {"name": "GPLv3", "link":'https://spdx.org/licenses/GPL-3.0-or-later.html'}}
+                
+                ] 
+        ,
+
+        default:'-',
+
+    },
+    {
         type: 'input',
         message: 'Installation instructions: ',
         name: 'installation',

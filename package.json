@@ -1,7 +1,7 @@
 {
-  "name": "static-site",
-  "version": "1.0.0",
-  "description": "",
+  "name": "readme-generator",
+  "version": "0.1.0",
+  "description": "Generates a README.md file in Markdown",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,13 @@
   "dependencies": {
     "inquirer": "^6.3.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickmklee/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickmklee/readme-generator/issues"
+  },
+  "homepage": "https://github.com/patrickmklee/readme-generator#readme"
 }
